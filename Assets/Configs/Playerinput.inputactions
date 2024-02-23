@@ -1,0 +1,78 @@
+{
+    "name": "Playerinput",
+    "maps": [
+        {
+            "name": "Plaeyr",
+            "id": "5e2d7fae-05f2-4d64-90b5-ac47ef53762e",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "98c5bf1a-6e2e-44d5-8c68-6fd40e5a3c28",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "9ea688aa-31a2-432b-9b98-13171b62bf8e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "a1dfaf9f-2d4d-4860-b998-fbc6ce8a279e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "f331ae9a-5331-4b52-b78e-723324c158d4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "adf9b848-6e80-4d25-bf9c-d0e8c573d010",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f8a01ca8-2880-463f-81ef-a4b1cd5698d3",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

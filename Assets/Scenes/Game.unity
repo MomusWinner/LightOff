@@ -778,12 +778,12 @@ GameObject:
   - component: {fileID: 773499296}
   - component: {fileID: 773499295}
   - component: {fileID: 773499294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &773499293
 Transform:
@@ -883,12 +883,12 @@ GameObject:
   - component: {fileID: 800246930}
   - component: {fileID: 800246929}
   - component: {fileID: 800246928}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &800246927
 Transform:
@@ -1241,6 +1241,7 @@ GameObject:
   - component: {fileID: 1414668054}
   - component: {fileID: 1414668056}
   - component: {fileID: 1414668057}
+  - component: {fileID: 1414668058}
   m_Layer: 7
   m_Name: Babaika
   m_TagString: Untagged
@@ -1299,6 +1300,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 1004215798}
+--- !u!114 &1414668058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414668053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b329d04416fe99546bfaeff8a98da5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRadius: 0
+  viewAngle: 0
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 64
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 256
+  visibleTargets: []
 --- !u!1 &2127585070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,12 +1333,12 @@ GameObject:
   - component: {fileID: 2127585074}
   - component: {fileID: 2127585073}
   - component: {fileID: 2127585072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2127585071
 Transform:
@@ -1413,12 +1435,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2136016767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2136016767
 Transform:

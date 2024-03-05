@@ -15,11 +15,11 @@ MonoBehaviour:
   _stateSettings:
     IdleStateConfig:
       _physicalSettings:
-        viewAngle: 203
-        viewRadius: 15
+        viewAngle: 180
+        viewRadius: 10
         moveSpeed: 4
     CatchingUpStateConfig:
       _physicalSettings:
-        viewAngle: 240
+        viewAngle: 200
         viewRadius: 20
         moveSpeed: 6

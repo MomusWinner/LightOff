@@ -26,7 +26,7 @@ namespace Babaika.States
         public override void OnChangeVisibleTargets(IReadOnlyList<Transform> targets)
         {
             if(!targets.Any()) return;
-            _agent.SetDestination(targets[0].position);
+            agent.SetDestination(targets[0].position);
         }
 
         public class Factory : PlaceholderFactory<CatchingUpState>

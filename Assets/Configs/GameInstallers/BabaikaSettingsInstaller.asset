@@ -18,6 +18,7 @@ MonoBehaviour:
         viewAngle: 180
         viewRadius: 10
         moveSpeed: 4
+      _bypassPointDestinationOffset: 5
     CatchingUpStateConfig:
       _physicalSettings:
         viewAngle: 200

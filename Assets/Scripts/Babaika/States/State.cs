@@ -21,8 +21,7 @@ namespace Babaika.States
         
         public virtual void Start()
         {
-            fieldOfView.ViewRadius = baseStateConfig.PhysicalConfig.ViewRadius;
-            fieldOfView.ViewAngle = baseStateConfig.PhysicalConfig.ViewAngle;
+            fieldOfView.ViewParams = baseStateConfig.PhysicalConfig.ViewParams;
             agent.speed = baseStateConfig.PhysicalConfig.MoveSpeed;
 
             fieldOfView.OnChangeVisibleTargets += OnChangeVisibleTargets;

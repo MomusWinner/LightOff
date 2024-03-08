@@ -15,12 +15,22 @@ MonoBehaviour:
   _stateSettings:
     IdleStateConfig:
       _physicalSettings:
-        viewAngle: 180
-        viewRadius: 10
-        moveSpeed: 4
+        _moveSpeed: 2
+        _viewParams:
+        - _viewAngle: 360
+          _viewRadius: 4
+        - _viewAngle: 60
+          _viewRadius: 15
+        - _viewAngle: 30
+          _viewRadius: 30
       _bypassPointDestinationOffset: 5
     CatchingUpStateConfig:
       _physicalSettings:
-        viewAngle: 200
-        viewRadius: 20
-        moveSpeed: 6
+        _moveSpeed: 4
+        _viewParams:
+        - _viewAngle: 360
+          _viewRadius: 5
+        - _viewAngle: 60
+          _viewRadius: 15
+        - _viewAngle: 30
+          _viewRadius: 30
